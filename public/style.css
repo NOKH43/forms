@@ -1,0 +1,111 @@
+body{
+  background-color: #EAEFF5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hdn p{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+  margin: 0px 0px 10px 10px;
+}
+
+
+form{
+  display: inline-block;
+  background-color: #FFFFFF;
+  padding: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.subject{
+  display: block;
+  width:90% ;
+}
+
+.name, .email{
+  width: auto;
+}
+
+.message{
+  display: block;
+  width:90% ;
+}
+
+.f-item{
+  margin: 10px;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid rgb(197, 195, 195);
+  border-radius: 4px;
+
+}
+
+.submit{
+  background-color: #0867ffad;
+  color: #FFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.f-side{
+  height: 450px;
+  width: 240px;
+  background-color: #0867ffc3;
+  border-radius: 4px;
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+.f-side p{
+  color: #FFF;
+  font-family: Arial;
+  font-size: 0.7rem;
+}
+
+p{
+  margin: 0;
+  padding: 4px;
+}
+
+
+
+.ctn-adress{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 35px;
+
+}
+
+.icon-circle{
+  border: none;
+  background-color: rgba(234, 229, 229, 0.2);
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+}
+
+span{
+  font-weight: bold;
+}
+
+h2{
+  color: #FFF;
+  font-size: 1rem;
+  font-family: Arial;
+  margin-top: 60px;
+  font-weight: 100;
+}
+
+.msg{
+  color: red;
+}
